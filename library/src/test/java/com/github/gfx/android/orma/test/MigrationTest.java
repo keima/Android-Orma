@@ -22,7 +22,7 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(constants = BuildConfig.class, manifest = Config.NONE)
-public class OrmaMigrationTest {
+public class MigrationTest {
 
     OrmaMigration migration;
 
